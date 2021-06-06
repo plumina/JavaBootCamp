@@ -26,7 +26,7 @@ public class FindLargest {
 
 		// Find Largest of three numbers
 
-		int i = 1, j = 2, k = 10;
+		int i = 1, j = 12, k = 10;
 
 		if (i > j) {
 			if (i > k)

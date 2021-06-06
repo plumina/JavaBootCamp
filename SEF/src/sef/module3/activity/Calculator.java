@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package sef.module3.activity;
 
@@ -7,28 +7,28 @@ package sef.module3.activity;
 
 
 /**
- * @author 
+ * @author
  *
  */
 public class Calculator {
-	
-		
+
+
 	public static void main(String[] args) {
-		Person p1 = new Person("Atif");
-		Person p2 = new Person("Gatis");
-		
+//		Person p2 = new Person("Gatis");
+//        Person p1 = new Person("Atif");
+
 	int x = 10;
-	int y = 0;
-	
+	int y = 2;
+
 	int[] nums = {1, 2, 3, 4};
-//	
-//	System.out.println("Addition - " + add(x,y));
+//
+	System.out.println("Addition - " + add(x,y));
 //	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
-//	System.out.println("Multiply - " + multiply(nums));
-	System.out.println("Divide - " + divide(x,y));
-	
-	if 
-	
+	System.out.println("Multiply - " + multiply(nums));
+//	System.out.println("Divide - " + divide(x,y));
+
+//	if
+
 	}
 
 
@@ -37,18 +37,18 @@ public class Calculator {
 		return sum;
 	}
 
-	private static int subtract(int x, int y) {
-		int diff = 0;
-		if (x > y) {
-			// complete the code
-			diff = x-y;
-		} else {
-			// complete the code
-			diff = y-x;
-		}
+//	private static int subtract(int x, int y) {
+//		int diff = 0;
+//		if (x > y) {
+//			// complete the code
+//			diff = x-y;
+//		} else {
+//			// complete the code
+//			diff = y-x;
+//		}
 
-		return diff;
-	}
+//		return diff;
+//	}
 
 	private static int multiply(int[] numbers) {
 		int temp = 1;
@@ -60,20 +60,20 @@ public class Calculator {
 
 	}
 
-	private static int divide(int x, int y) {
-		int divValue = 0;
-		if (x == 0 || y == 0) {
-			System.out.println("One of the number is 0, I can't do the divide operation");
-			divValue = 0;
-			return ;
-			// complete the code 
-		} else {
-			divValue = x/y;
+//	private static int divide(int x, int y) {
+//		int divValue = 0;
+//		if (x == 0 || y == 0) {
+//			System.out.println("One of the number is 0, I can't do the divide operation");
+//			divValue = 0;
+//			return ;
+//			// complete the code
+//		} else {
+//			divValue = x/y;
 			// complete the code
-		}
-		return divValue;
+//		}
+//		return divValue;
 
 	}
-	
-}
+
+//}
 
